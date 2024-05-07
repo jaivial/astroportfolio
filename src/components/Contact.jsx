@@ -8,6 +8,7 @@ export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [phone, setPhone] = useState("");
   const [isToast, setisToast] = useState(false);
   function Check() {
     if (!message || !email || !name) {
@@ -28,6 +29,7 @@ export default function Contact() {
         name: name,
         message: message,
         email: email,
+        phone: phone,
       })
       .then((response) => {
         if (response.status == 200) {
@@ -96,6 +98,19 @@ export default function Contact() {
                     type="email"
                     name="email"
                     id="email"
+                  />
+                </label>
+              </div>
+              <div>
+                <label className="text-primary font-semibold">
+                  Número de teléfono
+                  <input
+                    onChange={(e) => setPhone(e.target.value)}
+                    required
+                    className="w-full text-black rounded-md h-10 px-2"
+                    type="number"
+                    name="phone"
+                    id="phone"
                   />
                 </label>
               </div>
