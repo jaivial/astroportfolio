@@ -19,25 +19,25 @@ export default function Contact() {
   function handleForm(e) {
     e.preventDefault();
 
-    toast.success("Message Sent Successfully", {
+    toast.success("¡Mensaje enviado con éxito!", {
       style: { backgroundColor: "#303030", color: "#fff" },
     });
     axios.defaults.headers.post["Content-Type"] = "application/json";
     axios
-      .post("https://formsubmit.co/ajax/technicalrohit06@gmail.com", {
+      .post("https://formsubmit.co/ajax/jaimevillalcon@hotmail.com", {
         name: name,
         message: message,
         email: email,
       })
       .then((response) => {
         if (response.status == 200) {
-          toast.success("Message Sent Successfully", {
+          toast.success("¡Mensaje enviado con éxito!", {
             style: { backgroundColor: "#303030", color: "#fff" },
           });
         }
       })
       .catch((error) =>
-        toast.error("Unable to send messages", {
+        toast.error("Se ha producido un error enviando el mensaje. :(", {
           style: { backgroundColor: "#303030", color: "#fff" },
         })
       );
@@ -51,7 +51,7 @@ export default function Contact() {
         id="contact"
         className="mb-8 font-extrabold text-center text-4xl text-transparent bg-clip-text bg-gradient-to-tr from-[#d7d7d7] to-[#616161]"
       >
-        Contact Me
+        Contacto
       </h1>
       <section
         className="w-5/6 rounded-xl mx-auto bg-fit"
@@ -60,10 +60,10 @@ export default function Contact() {
         <div className="sm:p-24 p-8 mx-auto mb-24">
           <div className="pb-8 text-center">
             <h1 className="text-primary sm:text-5xl text-3xl font-bold">
-              Love to hear from you,
+             No lo dudes
             </h1>
             <h1 className="text-primary sm:text-5xl text-3xl font-bold">
-              Get in touch 👋
+              Envíame un mensaje 👋
             </h1>
           </div>
           <form
@@ -75,7 +75,7 @@ export default function Contact() {
             <div className="grid sm:grid-cols-2 grid-cols-1 gap-x-8 gap-y-4 w-full justify-center">
               <div>
                 <label className="text-primary font-semibold">
-                  Your Name
+                  Tu Nombre
                   <input
                     onChange={(e) => setName(e.target.value)}
                     required
@@ -88,7 +88,7 @@ export default function Contact() {
               </div>
               <div>
                 <label className="text-primary font-semibold">
-                  Email Adress
+                  Dirección E-mail
                   <input
                     onChange={(e) => setEmail(e.target.value)}
                     required
@@ -102,7 +102,7 @@ export default function Contact() {
             </div>
             <div className="py-4">
               <label className="text-primary font-semibold">
-                Message
+                Mensaje
                 <textarea
                   onChange={(e) => setMessage(e.target.value)}
                   className="w-full text-black rounded-md h-28 p-2"
@@ -116,7 +116,7 @@ export default function Contact() {
               <input
                 onClick={Check}
                 type="submit"
-                value="submit :)"
+                value="Enviar  :)"
                 className="px-4 py-2 rounded-md bg-white font-bold"
               />
             </div>

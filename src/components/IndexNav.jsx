@@ -64,37 +64,29 @@ export default function IndexNav() {
               <div className=" h-[100%] custom w-[100%] flex items-center justify-center">
                 <ul className="flex flex-col text-4xl font-bold text-center space-y-10">
                   <a onClick={() => isShow(false)} aria-label="Home" href="/">
-                    Home
+                    Inicio
                   </a>
                   <a
                     onClick={() => isShow(false)}
                     aria-label="projects"
                     href="/projects"
                   >
-                    Projects
+                    Proyectos
                   </a>
                   <a
                     onClick={() => isShow(false)}
                     aria-label="about"
                     href="/#about"
                   >
-                    About
-                  </a>
-                  <a
-                    onClick={() => isShow(false)}
-                    aria-label="blogs"
-                    href="/blog"
-                  >
-                    Blogs
+                    Sobre Mi
                   </a>
                   <a
                     onClick={() => isShow(false)}
                     aria-label="contact"
                     href="/#contact"
                   >
-                    Contact
+                    Contacto
                   </a>
-                  <a>Download CV</a>
                 </ul>
               </div>
             </div>

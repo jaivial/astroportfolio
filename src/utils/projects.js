@@ -2,93 +2,63 @@ import ras from "../assets/images/ras.webp";
 import joke from "../assets/images/joke.webp";
 import lofi from "../assets/images/lofi.webp";
 import blog from "../assets/images/blog.webp";
-import docAid from "../assets/images/docAid.webp";
-import LifeInsureEase from "../assets/images/lifeinsureease.webp";
-import Portfolio from "../assets/images/portfolio.webp"
-import CartManagementSystem from "../assets/images/cart-management-system.webp"
+import FloridaCats from "../assets/images/floridacats.webp";
+import Carhub from "../assets/images/carhub.webp";
+import AlqueriaVillacarmen from "../assets/images/villacarmendoble.webp";
+import Portfolio from "../assets/images/portfolioweb.webp"
+import GuillermoFernandezNutricion from "../assets/images/guillermofernandeznutricion.webp"
 const data = [
     {
-        name: "Cart Management System",
-        type: "WebApp",
-        url: "https://cart-system-sveltekit.vercel.app/",
-        github: "https://github.com/DevRohit06/cart-system-sveltekit",
-        image: CartManagementSystem,
-        slug: "cart-management-system",
-        description: "This is a Cart Management System made using SvelteKit and Tailwind css with the help of FakeStoreAPI. it has two versions one with sveltekit and another with NextJS.",
-        tech: ['HTML', 'Javascript', 'Css', 'Tailwind css', 'SvelteKit', 'NextJS']
+        name: "Guillermo Fernandez Nutricion",
+        type: "Página Web + Email",
+        url: "https://guillermofernandeznutricion.es/",
+        github: "https://github.com/jaivial/astrowebsite.git",
+        image: GuillermoFernandezNutricion,
+        slug: "guillermo-fernandez-nutricion",
+        description: "Página web para anunciar los servicios de consulta nutricional y aumentar la captación de clientes. Permite que los clientes realicen una primera consulta por un formulario de contacto. Diseño responsivo adaptable a tamaños de escritorio, tablet y móviles. Desarrollado con Astro para el front end y PHP para el backend del formulario de contacto. Las fotos y el contenido creativo fue elaborado por mi.",
+        tech: ['HTML', 'Javascript', 'Css', 'Astro', 'PHP', 'NodeJS']
         
     },
     {
-        name: "LifeInsureEase",
-        type: "Website",
-        url: "https://lifeinsureease.in/",
-        github: "https://github.com/DevRohit06/insurance-website",
-        image: LifeInsureEase,
-        slug: "lifeinsureease",
-        description: "This is an Insurance website made using Astro, Reactjs and Tailwind css. ",
-        tech: ['HTML', 'Javascript', 'Css', 'Tailwind css', 'Astro', 'Reactjs']
+        name: "Alqueria Villa Carmen",
+        type: "Página Web + Gestor de Reservas + Back Office",
+        url: "https://alqueriavillacarmen.com/",
+        github: "https://github.com/jaivial/villacarmen.git",
+        image: AlqueriaVillacarmen,
+        slug: "alqueria-villacarmen",
+        description: "Creación de página web para promocionar Alqueria Villa Carmen, un restaurante y salón de eventos. Destaca por mostrar los Menús del Día, de Fin de Semana y la carta de vinos, además de permitir reservas online. Incluye un gestor de reservas con funciones como límite diario de reservas, confirmación por correo electrónico y administración de reservas. La reserva online aumenta en un 300% la clientela. Además, las cartas son editables en tiempo real y desde dispositivos móviles, permitiendo cambios en fotos, descripciones y platos.",
+        tech: ['PHP', 'HTML', 'Javascript', 'Css', 'MySQL',]
 
     },
     {
-        name: "Portfolio Website",
-        type: "Website",
-        url: "https://rohitk06.site/",
-        github: "https://github.com/DevRohit06/Portfolio-website",
+        name: "Car Hub",
+        type: "Página Web",
+        url: "https://carhubpi.000webhostapp.com/index.php",
+        github: "/",
+        image: Carhub,
+        slug: "car-hub",
+        description: "Descubre nuestro sitio web dedicado a presentar el software Car Hub, un proyecto de culminación del grado superior en Desarrollo de Aplicaciones Multiplataforma para comprar y vender coches. A través de una cuidada exposición, destacamos las funcionalidades del software y lo invitamos a descargarlo, resaltando sus virtudes y su utilidad para nuestros clientes. Desarrollada con las últimas tecnologías en HTML y PHP, nuestra plataforma ofrece un diseño responsive que se adapta a cualquier dispositivo. Además, facilitamos la comunicación mediante un formulario de contacto vía email con nuestro equipo de desarrolladores, garantizando una experiencia completa y satisfactoria.",
+        tech: ['HTML', 'Javascript', 'Css', 'PHP']
+    },
+    {
+        name: "Florida Cats",
+        type: "Tienda Online",
+        url: "https://floridacats.000webhostapp.com/",
+        github: '/',
+        image: FloridaCats,
+        slug: "florida-cats",
+        description: "Prototipo de tienda online con acceso de usuario y contraseña y registro de nuevos usuarios. Almacenamiento de datos de sesión en cookies. Es una tienda online en la que se pueden añadir gatos al carrito. Permite aplicar filtros de orden por precio, nombre y antiguedad. Cada usuario tiene un carrito y un historial de pedidos independiente. Permite la adición o eliminación de gatos cuando inicias sesión como administrador en el área de administrador.",
+        tech: ['HTML', 'Javascript', 'CSS', 'PHP', 'MySQL']
+    },
+    {
+        name: "Portfolio Web",
+        type: "Pagina Web",
+        url: "https://www.jaimedigitalstudios.com/",
+        github: "https://github.com/jaivial/astroportfolio.git",
         image: Portfolio,
         slug: "portfolio",
-        description: "This is my Portfolio website made using Astro, Reactjs and Tailwind css. ",
-        tech: ['HTML', 'Javascript', 'Css', 'Tailwind css', 'Astro', 'Reactjs']
-    },
-    {
-        name: "DocAid",
-        type: "Website",
-        url: "https://doc-aid.vercel.app/",
-        github: 'https://github.com/DevRohit06/DocAid',
-        image: docAid,
-        slug: "docaid",
-        description: "Website template for Health related businesses",
-        tech: ['HTML', 'Javascript', 'CSS', 'Tailwind css', 'ReactJS']
-    },
-    {
-        name: "DevBlogs",
-        type: "WebApp",
-        url: "https://www.devblogs.xyz/",
-        github: "https://github.com/DevRohit06/blog",
-        image: blog,
-        slug: "devblogs",
-        description: "This is a Blogging website made for technology lovers.",
+        description: "Portfolio web para mostrar mi perfil, mi carrera académica y profesional, mis proyectos y contactar conmigo mediante un formulario. Desarrollado con Astro, es un diseño elegante, minimal y con un rendimiento veloz. Permite el filtrado de datos para mostrar los últimos projecots mediante recogida de datos. 100% responsivo, se adapta a formatos de escritorio, tablets y móviles.",
         tech: ['HTML', 'Javascript', 'Css', 'Tailwind css', 'Astro', 'Markdown']
-    },
-    {
-        name: "Ras Production",
-        type: "Website",
-        url: "https://rasproduction.vercel.app/",
-        github: "https://github.com/DevRohit06/videography-website",
-        image: ras,
-        slug: "ras",
-        description: "This is an Portfolio website for videography businesses made using HTML, Javascript, Css and Tailwind css it practices modern ui with dark theme ",
-        tech: ['HTML', 'Javascript', 'Css', 'Tailwind css']
-    },
-    {
-        name: "Joke Generator",
-        type: "WebApp",
-        url: "https://jokes-generator-with-api.vercel.app/",
-        github: "https://github.com/DevRohit06/Jokes-Generator-With-API",
-        image: joke,
-        slug: "joke",
-        description: "The website which generates joke with multi topics such as anime, programming, etc.",
-        tech: ['React', 'Javascript', 'Css', 'Tailwind css', 'express', 'nodejs']
-    },
-
-    {
-        name: "Lofi Beats",
-        type: "Website",
-        url: "https://lofibeats-3oo4q8gbg-lofi.vercel.app/",
-        github: "https://github.com/Lofi-Beats/lofibeats",
-        image: lofi,
-        slug: "lofibeats",
-        description: "Website that was built for Discord music bot named lofi beats built using plain html javascript and tailwind css",
-        tech: ['HTML', 'Javascript', 'Css', 'Tailwind css']
     },
 ]
 
