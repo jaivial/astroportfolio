@@ -9,7 +9,7 @@ import Portfolio from "../assets/images/portfolioweb.webp"
 import GuillermoFernandezNutricion from "../assets/images/guillermofernandeznutricion.webp"
 const data = [
     {
-        name: "Guillermo Fernandez Nutricion",
+        name: "Guillermo Fernandez Nutrición",
         type: "Página Web + Email",
         url: "https://guillermofernandeznutricion.es/",
         github: "https://github.com/jaivial/astrowebsite.git",
@@ -37,7 +37,7 @@ const data = [
         github: "/",
         image: Carhub,
         slug: "car-hub",
-        description: "Descubre nuestro sitio web dedicado a presentar el software Car Hub, un proyecto de culminación del grado superior en Desarrollo de Aplicaciones Multiplataforma para comprar y vender coches. A través de una cuidada exposición, destacamos las funcionalidades del software y lo invitamos a descargarlo, resaltando sus virtudes y su utilidad para nuestros clientes. Desarrollada con las últimas tecnologías en HTML y PHP, nuestra plataforma ofrece un diseño responsive que se adapta a cualquier dispositivo. Además, facilitamos la comunicación mediante un formulario de contacto vía email con nuestro equipo de desarrolladores, garantizando una experiencia completa y satisfactoria.",
+        description: "Descubre nuestro sitio web dedicado a presentar el software Car Hub, un portal de compra y venta de coches. Se destacan las funcionalidades del software, resaltando sus virtudes y su utilidad para nuestros clientes. Desarrollada con las últimas tecnologías en HTML y PHP, ofrece un diseño responsive que se adapta a cualquier dispositivo. Además, facilitamos la comunicación mediante un formulario de contacto vía email con nuestro equipo de desarrolladores.",
         tech: ['HTML', 'Javascript', 'Css', 'PHP']
     },
     {
