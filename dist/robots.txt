@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.rohitk06.site/sitemap-0.xml
+Sitemap: http://www.rohitk06.site/sitemap-index.xml
